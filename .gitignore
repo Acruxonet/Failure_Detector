@@ -1,0 +1,29 @@
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments and secrets
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.log
+
+# Generated experiment data are local by default. Keep only the two compact
+# report directories below; raw trajectories, rendered observations, MuJoCo
+# states, policy-ready datasets, and model action tensors are reproducible.
+artifacts/*
+!artifacts/pi05_libero_spatial_task0_cross_view_disagreement_50_seed20260811/
+!artifacts/pi05_libero_spatial_validation_t1_t2_t6_disagreement_seed20260811/
+artifacts/**/*.npz

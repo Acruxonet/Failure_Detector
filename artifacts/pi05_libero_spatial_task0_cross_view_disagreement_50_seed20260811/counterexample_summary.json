@@ -1,0 +1,79 @@
+{
+  "num_snapshots": 50,
+  "num_perturbed_greater": 29,
+  "num_counterexamples": 21,
+  "critical_stage_names": [
+    "close_approach",
+    "grasp_contact",
+    "lift_transport"
+  ],
+  "critical_num_snapshots": 22,
+  "critical_num_perturbed_greater": 21,
+  "critical_mean_paired_delta": 0.06001467765732245,
+  "noncritical_num_snapshots": 28,
+  "noncritical_num_perturbed_greater": 8,
+  "noncritical_mean_paired_delta": -0.02419703852917467,
+  "exploratory_fisher_one_sided_p": 1.0331945449871273e-06,
+  "stage_summary": [
+    {
+      "stage": "far_approach",
+      "manipulation_critical": false,
+      "num_snapshots": 22,
+      "num_perturbed_greater": 6,
+      "fraction_perturbed_greater": 0.2727272727272727,
+      "clean_mean": 0.19523283365097913,
+      "perturbed_mean": 0.16670960662039844,
+      "mean_paired_delta": -0.028523227030580692,
+      "mean_visibility_gain_fraction": 0.04849374158845008,
+      "one_sided_sign_test_p": 0.9915497303009033
+    },
+    {
+      "stage": "close_approach",
+      "manipulation_critical": true,
+      "num_snapshots": 4,
+      "num_perturbed_greater": 3,
+      "fraction_perturbed_greater": 0.75,
+      "clean_mean": 0.27075381204485893,
+      "perturbed_mean": 0.3116010092198849,
+      "mean_paired_delta": 0.04084719717502594,
+      "mean_visibility_gain_fraction": 0.5071224258778537,
+      "one_sided_sign_test_p": 0.3125
+    },
+    {
+      "stage": "grasp_contact",
+      "manipulation_critical": true,
+      "num_snapshots": 8,
+      "num_perturbed_greater": 8,
+      "fraction_perturbed_greater": 1.0,
+      "clean_mean": 0.10571156814694405,
+      "perturbed_mean": 0.1559147173538804,
+      "mean_paired_delta": 0.05020314920693636,
+      "mean_visibility_gain_fraction": 0.862652363535464,
+      "one_sided_sign_test_p": 0.00390625
+    },
+    {
+      "stage": "lift_transport",
+      "manipulation_critical": true,
+      "num_snapshots": 10,
+      "num_perturbed_greater": 10,
+      "fraction_perturbed_greater": 1.0,
+      "clean_mean": 0.16313372701406478,
+      "perturbed_mean": 0.23866461962461472,
+      "mean_paired_delta": 0.07553089261054993,
+      "mean_visibility_gain_fraction": 0.6864716267954967,
+      "one_sided_sign_test_p": 0.0009765625
+    },
+    {
+      "stage": "place_alignment",
+      "manipulation_critical": false,
+      "num_snapshots": 6,
+      "num_perturbed_greater": 2,
+      "fraction_perturbed_greater": 0.3333333333333333,
+      "clean_mean": 0.1287607563038667,
+      "perturbed_mean": 0.12042640894651413,
+      "mean_paired_delta": -0.008334347357352575,
+      "mean_visibility_gain_fraction": 0.6432724748241802,
+      "one_sided_sign_test_p": 0.890625
+    }
+  ]
+}
